@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/exam.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/*
