@@ -25,7 +25,7 @@ import javax.persistence.Table;
  * class QuestionModel
  */
 @Entity
-@Table(name = "CAU_HOI")
+@Table(name = "cau_hoi")
 public class QuestionModel implements Serializable {
 
 	/**

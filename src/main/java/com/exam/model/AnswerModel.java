@@ -20,7 +20,7 @@ import javax.persistence.Table;
  * class AnswerModel
  */
 @Entity
-@Table(name = "DAP_AN")
+@Table(name = "dap_an")
 public class AnswerModel implements Serializable {
 
 	/**
