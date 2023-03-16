@@ -1,1 +1,1 @@
-web java $JAVA_OPTS -jar webapp-runner.jar ${WEBAPP_RUNNER_OPTS} --port $PORT ./exam.war
+web java $JAVA_OPTS -jar webapp-runner.jar ${WEBAPP_RUNNER_OPTS} -Dserver.port=$PORT ./exam.war
