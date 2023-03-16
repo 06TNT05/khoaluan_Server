@@ -173,6 +173,11 @@
 	                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
 	                    <warName>exam</warName>
 	                    <failOnMissingWebXml>false</failOnMissingWebXml>
+	                    <archive>
+				            <manifest>
+				              <addClasspath>true</addClasspath>
+				            </manifest>
+				          </archive>
 	                </configuration>
 				</plugin>
 				<plugin>
