@@ -146,7 +146,7 @@
 	</dependencies>
 	<build>
 		<finalName>exam</finalName>
-		<pluginManagement>
+		<!--<pluginManagement>-->
 			<!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 			<plugins>
 				<plugin>
@@ -169,6 +169,11 @@
 				<plugin>
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.2.2</version>
+	                <configuration>
+	                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
+	                    <warName>exam</warName>
+	                    <failOnMissingWebXml>false</failOnMissingWebXml>
+	                </configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
@@ -193,6 +198,6 @@
 	            </plugin>
 				
 			</plugins>
-		</pluginManagement>
+		<!--</pluginManagement>-->
 	</build>
 </project>
