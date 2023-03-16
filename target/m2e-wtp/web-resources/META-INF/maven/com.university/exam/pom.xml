@@ -191,15 +191,6 @@
 	                </executions>
 	            </plugin>
 				
-				<plugin>
-			      <groupId>com.heroku.sdk</groupId>
-			      <artifactId>heroku-maven-plugin</artifactId>
-			      <configuration>
-			        <processTypes>
-			          <web>java $JAVA_OPTS -cp target/classes:target/dependency/* </web>
-			        </processTypes>
-			      </configuration>
-			    </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
